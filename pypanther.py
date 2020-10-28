@@ -171,7 +171,7 @@ elif options == "2" :
         port = int(input("Enter the target port: "))
     except ValueError :
         restart_program()
-        fake_ip = '10.23.12.45'
+    fake_ip = '10.23.12.45'
 
 
     def attack() :
