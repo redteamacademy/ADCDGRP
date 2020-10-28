@@ -34,7 +34,7 @@ if options == "1" :
 
     while True :
 
-        print(colored(figlet_format("NMap Scan"), color="green"))
+        print(colored(figlet_format(" Panther map"), color="green"))
 
         scanner = nmap.PortScanner()
         print('+===================================================================+')
