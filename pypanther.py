@@ -1,4 +1,4 @@
-#!/usr/bin/python3 #seting up the env
+#!/usr/bin/python3
 import os #importing the OS module for Operating sytem based exc
 import platform #using to identify the platform
 import socket #using to create socket connection for networking
