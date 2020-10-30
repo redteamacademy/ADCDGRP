@@ -1,0 +1,4 @@
+nmap3
+termcolor
+pyfiglet
+
