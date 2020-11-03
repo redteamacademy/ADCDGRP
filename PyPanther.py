@@ -20,7 +20,7 @@ def restart_program() : #defining restart
 
 print(colored(figlet_format("PyPanther"), color="cyan"))
 
-options = input("Choose which tool you want to use! \n 1.NMap Scan \n 2.DDoS Attack \n Enter your choice : ")
+options = input("Choose which tool you want to use! \n [1] PantherMap Scan \n [2] PantherDos Attack \n Enter your choice : ")
 
 if options == "1" :
     a = platform.system()
