@@ -103,48 +103,6 @@ just notice that this will slow down your attack.
         thread = threading.Thread(target=attack)
         thread.start()
 ```
-**HELP  AND OPTIONS**
-```
-user:~$ python3 pypanther.py --help
-usage: python pypanther.py -u <> -p <> [-h] [-v] [-u URL] [-p PORT]
-                                              [-ak ACCESSKEY] [-l LOCAL]
-                                              [--update] [-n] [-ic INJC]
-
-optional arguments:
-  -h, --help            show this help message and exit
-  -v, --version         show program's version number and exit
-  -u URL, --url URL     Put the web page url to clone
-  -p PORT, --port PORT  Insert your port
-  -ak ACCESSKEY, --accesskey ACCESSKEY
-                        Insert your custom key access
-  -l LOCAL, --local LOCAL
-                        Insert your home file
-  -n, --ngrok           Insert your ngrok Authtoken
-  -ic INJC, --injectcode INJC
-                        Insert your custom REST API path
-  -ud UPDATE, --update UPDATE
-                        Update trape to the latest version
-```
-
-**--url**  In this option you add the URL you want to clone, which works as a decoy.
-
-**--port**  Here you insert the port, where you are going to run the  **PY-PANTHER server**.
-
-**--accesskey**  You enter a custom key for the  **trape panel**, if you do not insert it will generate an  **automatic key**.
-
-**--injectcode**  PY-PANTHER contains a  **REST API**  to play anywhere, using this option you can customize the name of the file to include, if it does not, generates a random name allusive to a token.
-
-**--local**  Using this option you can call a local **HTML file**, this is the replacement of the  **--url**  option made to run a local lure in trape.
-
-**--ngrok**  In this option you can enter a token, to run at the time of a process. This would replace the token saved in configurations.
-
-**--version**  You can see the version number of PY-PANTHER.
-
-**--update**  Option used to upgrade to the latest version of **PY-PANTHER**.
-
-**--help**  It is used to see all the above options, from the executable.
-
-
 How to use it
 -------
  First unload the tool.
