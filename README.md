@@ -105,17 +105,22 @@ just notice that this will slow down your attack.
 ```
 How to use it
 -------
- First unload the tool.
+ First unload and allow permisions.
 ```
 git clone https://github.com/redteamacademy/ADCDGRP/pypanther.git
 cd pypanther
-python pypanther.py -h
+chmod +x pypanther
 ```
 If it does not work, try to install all the libraries that are located in the file **requirements.txt**
 ```
 pip install -r requirements.txt
 ```
-
+RUN
+```
+./pypanther
+OR
+python3 pypanther
+```
 Disclaimer
 -------
 This tool has been published educational purposes. It is intended to teach people how bad guys could track them, monitor them or obtain information from their credentials, we are not responsible for the use or the scope that someone may have through this project.
