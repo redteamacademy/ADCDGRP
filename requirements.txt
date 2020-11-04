@@ -1,4 +1,4 @@
-nmap3
+python3-nmap
+python-nmap
 termcolor
 pyfiglet
-
