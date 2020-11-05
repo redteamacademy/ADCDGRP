@@ -168,7 +168,14 @@ if options == "1" :
             # This would most commonly used inside one of the mouse callback function.
 
 elif options == "2" :
-    os.system('clear')  # This line tells python to talk to operating system and ask the system to run the clear command
+    a = platform.system()
+    if a == 'Windows' :
+        print(os.system('cls'))
+    elif a == 'Linux' :
+        print(os.system('clear'))
+    elif a == 'Darwin' :
+        print(os.system('clear'))  # This line tells python to talk to operating system and ask the system to run the clear command
+     
     attack_num = 0  # We created a variable attack_num, which tracks how many requests have been send already.
     # With every iteration we increases this number and print it.
     print(colored(figlet_format("PantherDos"), color="red"))
